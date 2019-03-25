@@ -5,7 +5,8 @@ class DNA {
         this.genes  = [];
         this.fitness = 0;
         for (let i = 0; i < target_length; i++) {
-            this.genes.push(getRandomChar(63, 123));
+            // this.genes.push(getRandomChar(63, 123));
+            this.genes.push(getRandomChar(32, 136));
         }
     }
 

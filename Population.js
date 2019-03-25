@@ -6,7 +6,7 @@ class Population {
         this.mutationRate = mutationRate;
         this.popMax = popMax;
         
-        this.population; // Array to hold current population 
+        this.population;// Array to hold current population 
         this.matingPool; // ArrayList for the mating pool
         this.totalGenerations = 0; // Number of generations
         this.finished = false; // has the target been reached?
@@ -83,9 +83,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-function stringify(arr) {
-    return toString(arr.join(""))
-}
 
 Population.prototype
 

@@ -1,9 +1,8 @@
 
 Population = require("./Population");
-
-const target = "This is an example of a genetic algorithm.";
-const popMax = 400;
-const mutationRate = 0.001;
+target = "hello my name is ryan and this is an algorithm and longer strings take more time";
+const popMax = 500;
+const mutationRate = 0.003;
 
 // var bestPhrase;
 // var allPhrases;
